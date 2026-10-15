@@ -1,0 +1,30 @@
+# أسرار وبيانات اعتماد Google — لا ترفعها إلى GitHub أبدًا
+credentials.json
+service_account.json
+*-credentials.json
+*.json
+.env
+.streamlit/secrets.toml
+.streamlit/streamlit_cloud_secrets.toml
+
+# ملفات النظام / بيئة التطوير / بيانات مؤقتة
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+*.csv
+
+# قاعدة البيانات المحلية للعمل دون اتصال (طابور المزامنة + النسخة المحلية)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# مخرجات بناء ملف exe (PyInstaller)
+build/
+dist/
+
+# سجل تشغيل النسخة المكتبية
+PolioStock.log
+*.exe
